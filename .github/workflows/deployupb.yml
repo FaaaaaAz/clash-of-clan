@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Checkout Codigo
-        uses: actions/
+        uses: actions/checkout@v4
 
       - name: Copy files via SCP
         uses: appleboy/scp-action@v1
